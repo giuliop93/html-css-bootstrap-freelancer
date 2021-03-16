@@ -4,4 +4,28 @@
     box-sizing: border-box;
 }
 
-.blue {}
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.col {
+    border: solid 1px;
+}
+
+.blue {
+    background-color: darkblue;
+}
+
+.green {
+    background-color: lightseagreen;
+}
+
+.white {
+    background-color: white;
+}
+
+.lightblue {
+    background-color: midnightblue;
+}
