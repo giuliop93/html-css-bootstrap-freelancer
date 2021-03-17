@@ -9,11 +9,11 @@
 }
 
 .blue {
-    background-color: darkblue;
+    background-color: rgb(44, 62, 80);
 }
 
 .green {
-    background-color: lightseagreen;
+    background-color: rgb(26, 187, 155);
 }
 
 .white {
@@ -21,7 +21,7 @@
 }
 
 .lightblue {
-    background-color: midnightblue;
+    background-color: rgb(120, 120, 194);
 }
 
 .box {
@@ -30,3 +30,4 @@
     background-color: tomato;
     border-radius: 5px;
 }
+
