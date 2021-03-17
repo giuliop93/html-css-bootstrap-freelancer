@@ -31,3 +31,13 @@
     border-radius: 5px;
 }
 
+.navbar-my-theme {
+    margin-bottom: 0;
+}
+
+.navbar-my-theme a {
+    color: white;
+}
+/* .text-white {
+    color: white;
+} */
