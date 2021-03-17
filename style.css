@@ -41,3 +41,7 @@
 /* .text-white {
     color: white;
 } */
+
+.my-img-container {
+    max-width: 200px;
+}
