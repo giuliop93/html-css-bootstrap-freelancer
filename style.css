@@ -45,3 +45,17 @@
 .avatar {
     width: 200px;
 }
+
+@media screen and (max-width: 767px) {
+    .hamburger {
+        border-radius: 5px;
+        padding: 10px;
+        border: 1px solid lightgray;
+        float: right;
+        color: lightgray;
+    }
+
+    /* .navbar-brand {
+        float: left;
+    } */
+}
