@@ -8,19 +8,19 @@
     border: solid 1px;
 }
 
-.blue {
+.bg-blue {
     background-color: rgb(44, 62, 80);
 }
 
-.green {
+.bg-green {
     background-color: rgb(26, 187, 155);
 }
 
-.white {
+.bg-white {
     background-color: white;
 }
 
-.lightblue {
+.bg-lightblue {
     background-color: rgb(58, 84, 109);
 }
 
@@ -30,6 +30,7 @@
     background-color: tomato;
     border-radius: 5px;
 }
+
 
 .navbar-my-theme {
     margin-bottom: 0;
@@ -58,4 +59,12 @@
     /* .navbar-brand {
         float: left;
     } */
+}
+
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: bolder;
 }
