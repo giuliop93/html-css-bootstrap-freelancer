@@ -80,3 +80,13 @@
 .padding_tb15 {
     padding: 15px 0;
 }
+
+.button_free {
+    margin: 50px 0;
+    background-color: rgb(26, 187, 155);
+}
+
+.margin {
+    margin-top: 30px;
+    margin-left: 0;
+}
