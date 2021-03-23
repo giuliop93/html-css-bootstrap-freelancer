@@ -76,3 +76,7 @@
 .bolder {
     font-weight: bolder;
 }
+
+.padding_tb15 {
+    padding: 15px 0;
+}
