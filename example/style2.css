@@ -1,0 +1,264 @@
+body {
+    font-size: 20px;
+}
+
+main {
+    padding-top: 90px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+a {
+    color: #1BBC9B;
+}
+
+a:hover, a:focus, a:active {
+    color: #159a80;
+}
+
+.bg-color {
+    background-color: #1BBC9B;
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+    color: #2c3e50;
+}
+
+.btn-default {
+    color: #f8f9fa;
+    background-color: transparent;
+    border-color: #f8f9fa;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #212529;
+}
+
+.btn-primary {
+    background-color: #1BBC9B;
+    border-color: #1BBC9B;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #159a80;
+    border-color: #148f77;
+}
+
+.btn-lg {
+    padding: 16px 28px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* .form-control,
+.form-control:focus {
+    padding-left: 0;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #e9ecef;
+    border-radius: 0;
+    font-size: 24px;
+    padding: 40px 0;
+} */
+/* 
+.separatore {
+    width: 250px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.separatore::before,
+.separatore::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 60px) / 2);
+    height: 3px;
+}
+
+.bg-color .separatore::before,
+.bg-color .separatore::after {
+    background-color: white;
+}
+
+.bg-white .separatore::before,
+.bg-white .separatore::after {
+    background-color: #2c3e50;
+}
+
+.separatore::before {
+    left: 0;
+}
+
+.separatore::after {
+    right: 0;
+} */
+
+/*** HEADER ***/
+.navbar-default.navbar {
+    border: 0;
+    background-color: #2D3E50;
+    border-radius: 0;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 22px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1BBC9B;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #1BBC9B;
+    border-color: #1BBC9B;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #159a80;
+    border-color: #159a80;
+}
+
+/*** JUMBOTRON ***/
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.jumbotron img {
+    height: 200px;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+}
+
+/*** PORTFOLIO ***/
+.portfolio-item {
+    margin-bottom: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.portfolio-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+.portfolio-item::after {
+    content: '\f067';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.portfolio-item:hover::before {
+    background-color: rgba(26,188,156,0.9);
+}
+
+.portfolio-item:hover::after {
+    opacity: 1;
+}
+
+/*** ABOUT ***/
+#btn-download {
+    margin-top: 30px;
+}
+
+/*** FOOTER TOP ***/
+#footer-top {
+    background-color: #2C3E50;
+    padding: 60px 0;
+    color: white;
+}
+
+.footer-top-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.social-icons i {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 52px;
+    width: 52px;
+    line-height: 48px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #212529;
+    background-color: white;
+}
+
+/*** FOOTER BOTTOM ***/
+#footer-bottom {
+    background-color: #1a252f;
+    padding: 20px 0;
+    color: white;
+    font-size: 13px;
+}
+
+#footer-bottom p {
+    margin-bottom: 0;
+}
+
+/*** MEDIA QUERY (mobile first) ***/
+@media screen and (min-width: 992px) {
+    .footer-top-item:not(:last-child)  {
+        margin-bottom: 0;
+    }
+}
